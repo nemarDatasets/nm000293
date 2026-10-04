@@ -1,0 +1,40 @@
+{
+    "Name": "MOVING2024",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Enrico Mattei",
+        "Daniele Lozzi",
+        "Alessandro Di Matteo",
+        "Alessia Cipriani",
+        "Costanzo Manes",
+        "Giuseppe Placidi"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.5281/zenodo.12804784"
+    ],
+    "Keywords": [
+        "Motor",
+        "Motor Imagery",
+        "Motor Execution",
+        "imagery"
+    ],
+    "DatasetDOI": "doi:10.3390/s24165207",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.3390/s24165207",
+            "URL": "https://doi.org/10.5281/zenodo.12804784"
+        }
+    ],
+    "PublicationYear": 2024
+}

@@ -1,0 +1,99 @@
+_dataset:
+  class: MOVING2024
+  code: MOVING2024
+  doi: 10.3390/s24165207
+  interval:
+  - 0
+  - 6
+  n_subjects: 11
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 32
+    misc: 3
+  electrode_type: dry
+  hardware: Neuroelectrics Enobio 32 (dry electrodes, wireless)
+  line_freq: 50.0
+  montage: 10-20
+  reference: CMS/DRL
+  sampling_rate: 500.0
+  sensor_type: dry
+  sensors:
+  - P7
+  - P4
+  - Cz
+  - Pz
+  - P3
+  - P8
+  - O1
+  - O2
+  - T8
+  - F8
+  - C4
+  - F4
+  - Fp2
+  - Fz
+  - C3
+  - F3
+  - Fp1
+  - T7
+  - F7
+  - Oz
+  - PO4
+  - FC6
+  - FC2
+  - AF4
+  - CP6
+  - CP2
+  - CP1
+  - CP5
+  - FC1
+  - FC5
+  - AF3
+  - PO3
+documentation:
+  country: IT
+  data_url: https://doi.org/10.5281/zenodo.12804784
+  description: Multi-modal dataset pairing 32-channel dry EEG with Virtual Glove hand-kinematic tracking during motor imagery
+    and motor execution of three right-hand movements.
+  doi: 10.3390/s24165207
+  institution: University of L'Aquila
+  investigators:
+  - Enrico Mattei
+  - Daniele Lozzi
+  - Alessandro Di Matteo
+  - Alessia Cipriani
+  - Costanzo Manes
+  - Giuseppe Placidi
+  license: CC-BY-4.0
+  publication_year: 2024
+  repository: Zenodo
+experiment:
+  class_labels:
+  - rest
+  - open_close
+  - wrist_rotation
+  - finger_tapping
+  mode: offline
+  n_classes: 4
+  paradigm: imagery
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual
+  study_design: rest -> motor imagery -> motor execution triplet for three right-hand movements (open/close, wrist rotation,
+    finger tapping), 8 repetitions per subject.
+  synchronicity: cue-based
+  trial_duration: 6.0
+file_format: EDF
+participants:
+  health_status: healthy
+  n_subjects: 11
+  species: homo sapiens
+runs_per_session: 1
+sessions_per_subject: 1
+tags:
+  modality:
+  - Motor
+  type:
+  - Motor Imagery
+  - Motor Execution
