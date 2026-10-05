@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "MOVING2024: Motor imagery / motor execution dataset from the MOVING study",
+  "description": "A multi-modal dataset of 32-channel dry EEG recorded together with Virtual Glove hand-kinematic tracking during motor imagery and motor execution of three right-hand movements (open/close, wrist rotation, finger tapping). Eleven healthy participants completed rest, motor imagery and motor execution triplets with eight repetitions each. This BIDS release was produced via MOABB for benchmarking brain-computer interface approaches.",
+  "methods_description": "EEG was recorded with a Neuroelectrics Enobio 32 wireless dry-electrode system at 500 Hz (32 EEG channels plus 3 miscellaneous channels, 10-20 montage, CMS/DRL reference). Each participant performed a rest, motor imagery, motor execution triplet for three right-hand movements, with visual cues, 8 repetitions, and 6 s trials, in a single session of about 10 minutes.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Enrico Mattei": {
       "orcid": "0009-0005-7702-9519"
@@ -21,6 +26,26 @@
       "orcid": "0000-0002-4790-4029"
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "motor execution"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "dry electrodes"
+    },
+    {
+      "term": "hand tracking"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.3390/s24165207",
@@ -53,14 +78,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "MOVING2024",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "196 MB (12 files)"
   ],
@@ -68,29 +90,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "MOVING2024 is a multi-modal motor imagery and motor execution dataset pairing 32-channel dry-electrode EEG with Virtual Glove hand-kinematic tracking. Eleven healthy participants performed rest, motor imagery and motor execution triplets for three right-hand movements (open/close, wrist rotation, finger tapping). This version is a MOABB-formatted derivative of the original Zenodo deposit.",
-  "methods_description": "EEG was recorded at 500 Hz with a Neuroelectrics Enobio 32 wireless dry-electrode system (10-20 montage, CMS/DRL reference). Each trial had a 2 s fixation followed by a 6 s action period. The rest, motor imagery, motor execution triplet was repeated eight times per subject for each of three right-hand movements, in a cue-based visual paradigm.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "motor execution"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "dry electrodes"
-    },
-    {
-      "term": "hand tracking"
-    }
-  ],
-  "source_hash": "9a09fa8efd75b1f4afb60a20fe9d0dc1b4927e62a61fb52f40f072fda9d08af6"
+  "source_hash": "19c02d27e5f2c4282cba3584d3dac7027e0144732f3a3827b166e3b0d54486e7"
 }
