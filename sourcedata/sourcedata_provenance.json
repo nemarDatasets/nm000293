@@ -1,0 +1,81 @@
+{
+ "dataset": "nm000293",
+ "moabb_class": "MOVING2024",
+ "moabb_version_used": "v1.7.1-11-g9c6b1cc",
+ "retrieved": "2026-10-04",
+ "retrieved_by": "moabb.datasets.MOVING2024.data_path()",
+ "upstream_cache_root": "/voyager/ceph/groups/sdp190/bpinto/moabb-nemar/mne_data/MOVING2024/MNE-moving2024-data/zenodo/12804784/extracted",
+ "license": "CC-BY-4.0",
+ "doi": "10.3390/s24165207",
+ "naming": "upstream_filenames_restored",
+ "n_files": 11,
+ "total_bytes": 226094792,
+ "files": [
+  {
+   "file": "edf/20231219170321_Subj_01_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "5e3d94a4a14c36c875adbd8dea94bcc7af82f5bd40371c2f6171757414234e2e",
+   "subject": "1"
+  },
+  {
+   "file": "edf/20231220093707_Subj_02_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "2c66f6c7020d94a5bf1fdf189ee93b634d105cb26a9472853f8737cc029ec525",
+   "subject": "2"
+  },
+  {
+   "file": "edf/20231220103414_Subj_03_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "300c01025e600e7cc0e5b9680e2388cc05ac342dbd3806664038052dde3c8697",
+   "subject": "3"
+  },
+  {
+   "file": "edf/20231220111708_Subj_04_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "e8a86b649cea8a41e7072d747ff1e779cac19591097c458a4be802591b339d21",
+   "subject": "4"
+  },
+  {
+   "file": "edf/20231220120202_Subj_05_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "2eb83065868d96395d005aed4d4ea78c07790d4b994faecdafd26c974dbe84d4",
+   "subject": "5"
+  },
+  {
+   "file": "edf/20231220124949_Subj_06_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "6180c16acbb429fb9297b0f21e2be19da5ed4b5b3ac55f098d595adfb77453c4",
+   "subject": "6"
+  },
+  {
+   "file": "edf/20231220142309_Subj_07_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "d5673fb39f7fedd50fabf7f44c405bfc6123bf555a896c621698b79aed992e85",
+   "subject": "7"
+  },
+  {
+   "file": "edf/20231220151901_Subj_08_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "46cc835d6a8f628639c55598bedae4a8d57094156449ab2fb87d258ad878589b",
+   "subject": "8"
+  },
+  {
+   "file": "edf/20231220160938_Subj_09_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "3d4e61d05f3d99536886c574155cfa476cf00608527823630095bdf6f0091883",
+   "subject": "9"
+  },
+  {
+   "file": "edf/20231220182948_Subj_10_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "2190cfb6e6f56e8a77e73340ee5ad0d8491489fff314766bfeaee1495e1316a6",
+   "subject": "10"
+  },
+  {
+   "file": "edf/20231221132451_Subj_11_bci_32_gesture.edf",
+   "bytes": 20554072,
+   "sha256": "094fb669df2c91421673cfe1e7d932094a35db1f63e70466ce48c8414d2da854",
+   "subject": "11"
+  }
+ ]
+}
