@@ -116,3 +116,15 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+The source publication's Institutional Review Board Statement and Informed Consent Statement cite the University of L'Aquila participant information/consent form (https://www.univaq.it/include/utilities/blob.php?item=file&table=allegato&id=6252); see Mattei et al. 2024, Sensors 24(16):5207, DOI 10.3390/s24165207. The published article does not name the approving IRB in-line.
+
+Verbatim from the source:
+
+> ## Institutional Review Board Statement\n https://www.univaq.it/include/utilities/blob.php?item=file&table=allegato&id=6252) accessed on 15 June 2024.
+
+Source: cached paper .paper-audit/MOVING2024/paper-10_3390_s24165207.txt (Mattei et al. 2024, Sensors 24:5207, DOI 10.3390/s24165207).
+
+Note: The source statement is incomplete (no committee named); defers to the primary publication for the full ethics record.
