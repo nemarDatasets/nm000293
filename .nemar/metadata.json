@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MOVING2024: Motor imagery / motor execution dataset from the MOVING study",
-  "description": "A motor imagery and motor execution EEG dataset from the MOVING study, recorded from 11 healthy participants with a 32-channel dry-electrode Neuroelectrics Enobio system. Participants performed rest, motor imagery and motor execution of three right-hand movements (open/close, wrist rotation, finger tapping), with Virtual Glove hand tracking acquired alongside the EEG. This BIDS release was converted from the published source data via MOABB.",
-  "methods_description": "Thirty-two-channel dry-electrode EEG was recorded at 500 Hz (Neuroelectrics Enobio 32, 10-20 montage, CMS/DRL reference). Each trial comprised a 2 s fixation followed by a 6 s action. The rest, motor imagery and motor execution triplet was repeated eight times per subject for each of three right-hand movements, with cue-based visual presentation.",
+  "description": "A multi-modal dataset of 32-channel dry-electrode EEG recorded together with Virtual Glove hand-kinematic tracking during motor imagery and motor execution of three right-hand movements (open/close, wrist rotation, finger tapping). Eleven healthy participants completed a rest, motor imagery, motor execution sequence with eight repetitions of the triplet. This BIDS re-release was produced via MOABB from the published MOVING dataset.",
+  "methods_description": "EEG was acquired with a Neuroelectrics Enobio 32 dry-electrode wireless system (32 channels, 500 Hz, 10-20 montage, CMS/DRL reference). Each trial involved a cue-based visual protocol with 2 s fixation and 6 s action, repeated eight times per movement triplet per subject (about 10 minutes), with rest, motor imagery and motor execution phases.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -31,19 +31,21 @@
       "term": "EEG"
     },
     {
-      "term": "motor imagery"
+      "term": "Motor Imagery"
     },
     {
-      "term": "motor execution"
+      "term": "Motor Execution"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "dry electrodes"
     },
     {
-      "term": "hand tracking"
+      "term": "hand kinematics"
     }
   ],
   "related_identifiers": [
