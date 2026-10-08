@@ -1,43 +1,47 @@
 {
-    "Name": "MOVING2024: Motor imagery / motor execution dataset from the MOVING study",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Enrico Mattei",
-        "Daniele Lozzi",
-        "Alessandro Di Matteo",
-        "Alessia Cipriani",
-        "Costanzo Manes",
-        "Giuseppe Placidi"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.5281/zenodo.12804784"
-    ],
-    "Keywords": [
-        "Motor",
-        "Motor Imagery",
-        "Motor Execution",
-        "imagery"
-    ],
-    "DatasetDOI": "doi:10.3390/s24165207",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.3390/s24165207",
-            "URL": "https://doi.org/10.5281/zenodo.12804784"
-        }
-    ],
-    "PublicationYear": 2024,
-    "EthicsApprovals": [
-        "The source publication's Institutional Review Board Statement and Informed Consent Statement cite the University of L'Aquila participant information/consent form (https://www.univaq.it/include/utilities/blob.php?item=file&table=allegato&id=6252); see Mattei et al. 2024, Sensors 24(16):5207, DOI 10.3390/s24165207. The published article does not name the approving IRB in-line."
-    ]
+  "Name": "MOVING2024: Motor imagery / motor execution dataset from the MOVING study",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Enrico Mattei",
+    "Daniele Lozzi",
+    "Alessandro Di Matteo",
+    "Alessia Cipriani",
+    "Costanzo Manes",
+    "Giuseppe Placidi"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5281/zenodo.12804784"
+  ],
+  "Keywords": [
+    "Motor",
+    "Motor Imagery",
+    "Motor Execution",
+    "imagery"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000293",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.3390/s24165207",
+      "URL": "https://doi.org/10.5281/zenodo.12804784"
+    },
+    {
+      "DOI": "doi:10.3390/s24165207"
+    }
+  ],
+  "PublicationYear": 2024,
+  "EthicsApprovals": [
+    "The source publication's Institutional Review Board Statement and Informed Consent Statement cite the University of L'Aquila participant information/consent form (https://www.univaq.it/include/utilities/blob.php?item=file&table=allegato&id=6252); see Mattei et al. 2024, Sensors 24(16):5207, DOI 10.3390/s24165207. The published article does not name the approving IRB in-line."
+  ],
+  "Version": "1.0.0"
 }
